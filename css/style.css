@@ -1,63 +1,25 @@
+html{
+    height: 100%;
+}
+h1{
+    font-family: monospace;
+    width: 5; 
+}
+
 body{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: skyblue;
-
-    background-image: url('images/images');
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;   
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Black.jpg);
+    background-size: cover;
+    height: 100%;
 }
 
-img{
-    border: 2px solid grey;
-    border-radius: 25px;
+button{
+    font-family: sans-serif;
+    color: aquamarine;
 }
-
-.enter-api{
-    width: 300px;
-    height: 150px;
-    display: block;
-    margin: 300px 0 0 520px;
-    background-color: rgba(0, 0, 0, 0.534);
-
-    border: 3px solid gray;
-    border-radius: 10px;
-}
-
-.text{
-    padding-top: 15px;
-    text-align: center;
-}
-
-form{
-    padding:5px 0 0 25px;
-}
-#apiKey{
-    width: 245px;
-    height: 30px;
-    margin-top: 5px;
-
-    border: 1px solid skyblue;
-    border-radius: 5px;
-}
-
-#submitApiKey{
-    width: 200px;
-    height: 35px;
-    margin: 3px 0 0 25px;
-
-    background-color: rgb(42, 148, 47);
-    font-weight: 700;
-    font-size: large;
-    color: white;
-
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-#submitApiKey:hover{
-    background-color: rgb(73, 177, 59);
+div{
+    padding-top: 20;
+    padding-bottom: 20;
 }
